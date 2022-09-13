@@ -1,0 +1,102 @@
+.nav-bar-logo {
+    width: auto;
+    height: 50px;
+    float: left;
+    padding: 12px;
+    margin-left: 10%;
+}
+header{
+    background-color: #333333;
+    border: 2 2 2 2 black;
+    width: 100%;
+    overflow: auto;
+    padding-bottom: -3%;
+    
+}
+header ul {
+    list-style-type: none;
+    margin-right: 10%;
+   
+  overflow: hidden;
+}
+header li a{
+    float: right;
+    padding: 15px;
+    vertical-align: middle;
+    color: #ff0099;
+    text-decoration: none;
+}
+header li a:hover{
+    color: yellow;
+    text-decoration: underline;
+}
+.gallery-row
+{
+display: flex;
+}
+.gallery-image
+{
+    flex: 33%;
+    padding: 5px;
+}
+.gallery-image img{
+    width: auto;
+    height: 350px;
+}
+.gallery-image p{
+    text-align: justify;
+}
+main {
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 3%;
+}
+body 
+{
+    background-image: url(assets/background.png);
+    background-repeat:repeat;
+    background-color: grey;
+}
+h1
+{
+    font-size: 3em;
+
+}
+h2{
+    font-size: 2em;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    color: #ff0099;
+}
+h3{
+    font-size: 1.5em;
+}
+hr
+{
+    border-top: 1px dashed black;
+}
+p 
+{
+    font-family: 'Courier New', monospace;
+}
+.lh
+{
+    line-height: 200%;
+}
+footer
+{
+    margin-top: 2000px;
+
+}
+
+.end p
+{
+text-align: end;
+}
+.seperator{
+    text-align: center;
+    font-weight: bolder;
+    font-size: 55px;
+    letter-spacing: 15px;
+    color: #ff0099;
+}
